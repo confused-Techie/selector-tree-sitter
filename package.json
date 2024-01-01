@@ -1,0 +1,22 @@
+{
+  "name": "selector-tree-sitter",
+  "version": "1.0.0",
+  "description": "Query Tree-Sitter Grammar trees with CSS-like Selectors",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test test"
+  },
+  "keywords": [
+    "tree-sitter"
+  ],
+  "author": "confused-Techie",
+  "repository": "https://github.com/confused-Techie/selector-tree-sitter",
+  "license": "MIT",
+  "dependencies": {
+    "parsel-js": "^1.1.2"
+  },
+  "devDependencies": {
+    "tree-sitter": "^0.20.6",
+    "tree-sitter-javascript": "^0.20.1"
+  }
+}
